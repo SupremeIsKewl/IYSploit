@@ -1,10 +1,3 @@
-if IY_LOADED and not _G.IY_DEBUG == true then
-	error("IYSploit is not running!",0)
-	return
-end
-
-pcall(function() getgenv().IY_LOADED  = false end)
-
 local LPLR = game:GetService('Players').LocalPlayer
 local CMDS = {}
 local SEIZURE = false
