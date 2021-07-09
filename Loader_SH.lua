@@ -108,7 +108,7 @@ AddCmd('bet','Loads BET!',function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/XB67JnAu", true))()
 end)
 
-Addcmd('alphax','Loads Alpha X!',function()
+AddCmd('alphax','Loads Alpha X!',function()
 	loadstring(game:HttpGet("https://cdn.applebee1558.com/alphax/AlphaX.lua", true))()
 end)
 
