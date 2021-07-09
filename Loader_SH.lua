@@ -37,7 +37,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.645690858, 0, 1, 0)
 TextLabel_2.Size = UDim2.new(0.353078157, 0, 0.45161289, 0)
 TextLabel_2.Font = Enum.Font.SourceSansLight
-TextLabel_2.Text = "Kermit's FE Admin (scuba kermit#0104)"
+TextLabel_2.Text = "IYScriptHub By RSF#4715"
 TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_2.TextSize = 18
 TextLabel_2.TextWrapped = true
@@ -51,7 +51,7 @@ Bar.Position = UDim2.new(0.0355677158, 0, 0, 0)
 Bar.Size = UDim2.new(0.922024608, 0, 1, 0)
 Bar.ClearTextOnFocus = false
 Bar.Font = Enum.Font.SourceSansLight
-Bar.PlaceholderText = "Enter Script Name"
+Bar.PlaceholderText = "Enter Script Name..."
 Bar.Text = ""
 Bar.TextColor3 = Color3.new(1, 1, 1)
 Bar.TextSize = 16
@@ -85,6 +85,7 @@ end
 function Service(thing)
 return game:GetService(thing)
 end
+
 AddCmd('darkhub','Loads DarkHub!',function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
@@ -103,6 +104,14 @@ end)
 
 AddCmd('alphax','Loads Alpha X!',function()
 	loadstring(game:HttpGet("https://cdn.applebee1558.com/alphax/AlphaX.lua", true))()
+end)
+
+AddCmd('fathonhub','Loads FathonHub!',function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+end)
+
+AddCmd('chatbypass','Loads Chat Bypass!',function()
+	loadstring(game:HttpGet("https://the-shed.dev/scripts/sbp.lua",true))()
 end)
 
 -- Bar handling
