@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	error("IYSploit is already running!",0)
+	error("IYSploit is not running!",0)
 	return
 end
 
